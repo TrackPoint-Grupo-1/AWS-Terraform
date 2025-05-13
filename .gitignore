@@ -1,0 +1,31 @@
+# Chaves privadas e credenciais
+*.pem
+*.pem.pub
+*.key
+*.pub
+id_rsa
+id_rsa.pub
+
+# Arquivos de configuração específicos de IDE
+.vscode/
+.idea/
+
+# Arquivos de logs e temporários
+*.log
+*.bak
+*.swp
+*.DS_Store
+
+# Arquivos Terraform
+*.tfvars
+*.tfstate
+*.tfstate.backup
+
+# Arquivos de compilação
+*.class
+*.exe
+*.out
+*.o
+
+.provider
+.terraform
